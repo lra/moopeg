@@ -1,0 +1,52 @@
+
+                  M O O P E G
+
+
+Moopeg - milk powered mediaplayer.
+
+
+Moopeg uses:
+- win32 API
+- DirectShow
+- Third party codecs installed on your system
+
+http://www.moopeg.com
+
+
+History:
+
+v0.2a - 13/02/2001
+- play/pause when you click on the video
+- keep video aspect ratio on resize
+
+v0.2  - 07/02/2001
+- moopeg now resizes itself to the real video size
+- command line and drag-file-on-link support
+- more mooish about box
+- fullscreen mode finally working
+- added a mute command
+- added an installer/uninstaller
+
+v0.1d - 06/02/2001
+- disabled some menu items when no video is loaded
+- added an Always on Top command
+- added a close command
+- video always appears in the right place now in the moopeg window
+
+v0.1c - 05/02/2001
+- added the 50%, 100% and 200% zoom
+- added the stop command
+- window resized to fit the size of the video on load
+- another about box
+- rewrote the whole thing from scratch, better source and 2/3 smaller file size
+
+v0.1b - 03/02/2001
+- play/pause menu item added
+- better about box
+- filename appears in the titlebar
+- drag & drop support (1 file at a time for now)
+- added a 32x32 cowspots icon
+
+v0.1a - 02/02/2001
+- added the cowspots icon
+- first directshow implementation

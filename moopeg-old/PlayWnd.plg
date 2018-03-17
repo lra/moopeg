@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PlayWnd - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/playwnd.res" /d "NDEBUG" "D:\devel\moopeg\playwnd.rc"" 
+Creating temporary file "C:\DOCUME~1\analogue\LOCALS~1\Temp\RSP825.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\..\..\..\..\include" /I "..\..\BaseClasses" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PlayWnd.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\devel\moopeg\playwnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\analogue\LOCALS~1\Temp\RSP825.tmp" 
+Creating temporary file "C:\DOCUME~1\analogue\LOCALS~1\Temp\RSP826.tmp" with contents
+[
+winspool.lib shell32.lib odbc32.lib odbccp32.lib quartz.lib msvcrt.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib ole32.lib winmm.lib msacm32.lib olepro32.lib oleaut32.lib advapi32.lib uuid.lib strmiids.lib /nologo /stack:0x200000,0x200000 /subsystem:windows /incremental:no /pdb:"Release/Moopeg.pdb" /machine:I386 /nodefaultlib /out:"Release/Moopeg.exe" 
+.\Release\playwnd.obj
+.\Release\playwnd.res
+]
+Creating command line "link.exe @C:\DOCUME~1\analogue\LOCALS~1\Temp\RSP826.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+playwnd.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Moopeg.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

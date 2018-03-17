@@ -1,0 +1,165 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "playwnd.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open clip...",               ID_FILE_OPENCLIP
+        MENUITEM "&Close clip",                 ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Control"
+    BEGIN
+        MENUITEM "&Pause/Play",                 ID_FILE_PAUSE
+        MENUITEM "&Stop",                       ID_FILE_STOP
+        MENUITEM "&Mute/Unmute",                ID_FILE_MUTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Half\t (50%)",               ID_FILE_SIZE_HALF
+        MENUITEM "&Three-quarter\t (75%)",      ID_FILE_SIZE_THREEQUARTER
+        MENUITEM "&Normal\t (100%)",            ID_FILE_SIZE_NORMAL
+        MENUITEM "&Double\t (200%)",            ID_FILE_SIZE_DOUBLE
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen",                ID_FILE_FULLSCREEN
+    END
+    POPUP "&Rate"
+    BEGIN
+        MENUITEM "&Increase Playback Rate",     ID_RATE_INCREASE
+        MENUITEM "&Decrease Playback Rate",     ID_RATE_DECREASE
+        MENUITEM SEPARATOR
+        MENUITEM "&Normal Playback Rate",       ID_RATE_NORMAL
+        MENUITEM "&Half Playback Rate",         ID_RATE_HALF
+        MENUITEM "Dou&ble Playback Rate",       ID_RATE_DOUBLE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About...",                   ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MOOPEG              ICON    DISCARDABLE     "Resources\\moopeg.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 184, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Moopeg"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Moopeg Version 0.2b",IDC_STATIC,8,75,71,8,SS_NOPREFIX
+    LTEXT           "Copyright © 2001-2002 shpOOp!",IDC_STATIC,8,84,106,8
+    DEFPUSHBUTTON   "MoooH !!!",IDOK,126,78,50,14,WS_GROUP
+    CONTROL         102,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    WS_BORDER,8,8,168,63
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""playwnd.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP  DISCARDABLE     "Resources\\about.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 176
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 92
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
